@@ -1,3 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
 	
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+::selection {
+
+}
+
+::-moz-selection {
+
+}
+
+.frame:after {
+  content: "";
+  display: table;
+  clear: both;
 }
